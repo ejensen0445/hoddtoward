@@ -3,13 +3,13 @@ from time import sleep
 
 buzzer = Buzzer(17)
 
-#while True:
-    #buzzer.on()
-    #sleep(1)
-    #buzzer.off()
-    #sleep(1)
+while True:
+    buzzer.on()
+    sleep(1)
+    buzzer.off()
+    sleep(1)
 
 #buzzer.off()
 
-while True:
-    buzzer.off()
+#while True:
+    #buzzer.beep()
